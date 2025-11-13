@@ -11,7 +11,7 @@
     <meta property="og:title" content="Nikesh Shrestha • Backend Developer" />
     <meta
       property="og:description"
-      content="Projects: Background Remover, RAG Chatbot, CI2→CI4 Migration. Skills: Python, PHP, JS, Django, FastAPI, CodeIgniter."
+      content="Projects: WhatsApp Chat Integration, Viber OTP Integration, RAG Chatbot. Skills: Python, PHP, JS, Django, FastAPI, CodeIgniter."
     />
     <meta name="theme-color" content="#ff6a00" />
     <link
@@ -748,6 +748,11 @@
               <span class="tag">Django</span>
               <span class="tag">FastAPI</span>
               <span class="tag">CodeIgniter</span>
+              <span class="tag">WhatsApp API</span>
+              <span class="tag">Viber API</span>
+              <span class="tag">LangChain</span>
+              <span class="tag">Gemini API</span>
+              <span class="tag">Hugging Face</span>
             </div>
           </aside>
         </div>
@@ -766,6 +771,8 @@
                 <span class="tag">Authentication</span>
                 <span class="tag">Session Management</span>
                 <span class="tag">Middleware</span>
+                <span class="tag">WhatsApp API Integration</span>
+                <span class="tag">Viber API Integration</span>
               </div>
             </div>
 
@@ -781,6 +788,18 @@
             </div>
 
             <div class="card animate-fadeIn animate-delay-3">
+              <h3><i class="fas fa-robot"></i> AI & ML Technologies</h3>
+              <div class="stack">
+                <span class="tag">LangChain</span>
+                <span class="tag">Gemini API</span>
+                <span class="tag">Hugging Face</span>
+                <span class="tag">RAG Systems</span>
+                <span class="tag">Vector Databases</span>
+                <span class="tag">Embeddings</span>
+              </div>
+            </div>
+
+            <div class="card animate-fadeIn">
               <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
               <div class="stack">
                 <span class="tag">Git</span>
@@ -802,66 +821,70 @@
           <div class="grid">
             <!-- Project 1 -->
             <article class="card animate-fadeIn animate-delay-1">
-              <h3>Background Remover</h3>
+              <h3>WhatsApp Chat Integration</h3>
               <p>
-                AI-powered background removal system with FastAPI interface for
-                image uploads & processing.
+                Implemented a two-way WhatsApp conversation system for customer support,
+                enabling businesses to communicate directly with customers through the
+                WhatsApp Business API.
               </p>
               <div class="meta">
-                <span class="pill">FastAPI</span>
-                <span class="pill">PyTorch</span>
-                <span class="pill">Python</span>
-                <span class="pill">U2Net</span>
+                <span class="pill">WhatsApp Business API</span>
+                <span class="pill">PHP</span>
+                <span class="pill">Webhooks</span>
+                <span class="pill">CI3</span>
               </div>
               <a
-                href="https://github.com/Team-Exopy/bgremover"
-                target="_blank"
+                href="#"
+                onclick="showToast('Private project, access restricted!'); return false;"
                 class="project-link"
-                ><i class="fas fa-external-link-alt"></i> GitHub Repository</a
+                ><i class="fas fa-lock"></i> Case Study (Private)</a
               >
             </article>
 
             <!-- Project 2 -->
             <article class="card animate-fadeIn animate-delay-2">
-              <h3>RAG Chatbot (Classic Tech ISP)</h3>
+              <h3>Viber OTP Template Integration</h3>
               <p>
-                Retrieval-Augmented Generation chatbot for an ISP: integrates
-                knowledge base search with LLM responses, plus Redis-backed
-                memory.
+                Developed a secure OTP delivery system using Viber's template messaging API,
+                providing reliable authentication for user verification processes.
+              </p>
+              <div class="meta">
+                <span class="pill">Viber API</span>
+                <span class="pill">OTP Service</span>
+                <span class="pill">Authentication</span>
+                <span class="pill">PHP</span>
+                <span class="pill">Message Templates</span>
+              </div>
+              <a
+                href="#"
+                onclick="showToast('Private project, access restricted!'); return false;"
+                class="project-link"
+                ><i class="fas fa-lock"></i> Case Study (Private)</a
+              >
+            </article>
+
+            <!-- Project 3 -->
+            <article class="card animate-fadeIn animate-delay-3">
+              <h3>RAG Chatbot with LangChain & Gemini</h3>
+              <p>
+                Built a Retrieval-Augmented Generation chatbot using LangChain, Gemini API,
+                and Hugging Face embeddings for enhanced conversational AI with contextual
+                knowledge retrieval.
               </p>
               <div class="meta">
                 <span class="pill">LangChain</span>
-                <span class="pill">Redis</span>
+                <span class="pill">Gemini API</span>
+                <span class="pill">Hugging Face</span>
+                <span class="pill">RAG</span>
+                <span class="pill">Milvus</span>
                 <span class="pill">Python</span>
-                <span class="pill">FastAPI</span>
-                <span class="pill">LLM</span>
+                <span class="pill">Redis</span>
               </div>
               <a
                 href="https://github.com/Nik-doid/testchatbot"
                 target="_blank"
                 class="project-link"
                 ><i class="fas fa-external-link-alt"></i> GitHub Repository</a
-              >
-            </article>
-
-            <!-- Project 3 -->
-            <article class="card animate-fadeIn animate-delay-3">
-              <h3>CI2 → CI4 Migration</h3>
-              <p>
-                Migrating a legacy CodeIgniter 2 system to CodeIgniter 4 with
-                PHP 8.4 readiness, improved structure, and modern tooling.
-              </p>
-              <div class="meta">
-                <span class="pill">PHP</span>
-                <span class="pill">CodeIgniter</span>
-                <span class="pill">MySQL</span>
-                <span class="pill">Legacy Migration</span>
-              </div>
-              <a
-                href="#"
-                onclick="showToast('Private repo, access restricted!'); return false;"
-                class="project-link"
-                ><i class="fas fa-lock"></i> Case Study (Private)</a
               >
             </article>
           </div>
@@ -892,14 +915,13 @@
               <h3>Trainee - Classic Tech</h3>
               <div class="experience-date">2025 - 3 Months</div>
               <p>
-                As a backend developer working on legacy CI3 projects and
-                migrating CI2 project to CI4.
+                Learned internal workflow and projects.Worked on maintaining legacy system.
               </p>
               <div class="meta">
-                <span class="pill">CodeIgniter</span>
-                <span class="pill">Django</span>
-                <span class="pill">Fast Api</span>
-                <span class="pill">Rag Chatbot</span>
+                <span class="pill">CodeIgniter 3</span>
+                <span class="pill">PHP</span>
+                <span class="pill">MY SQL</span>
+                <span class="pill">jQuery</span>
               </div>
             </div>
 
@@ -911,10 +933,10 @@
                 migrating CI2 project to CI4.
               </p>
               <div class="meta">
-                <span class="pill">CodeIgniter</span>
-                <span class="pill">Django</span>
-                <span class="pill">Fast Api</span>
-                <span class="pill">Rag Chatbot</span>
+                <span class="pill">CodeIgniter 3</span>
+                <span class="pill">PHP</span>
+                <span class="pill">MY SQL</span>
+                <span class="pill">jQuery</span>
               </div>
             </div>
           </article>
